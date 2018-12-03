@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="156px" height="170px" viewBox="0 0 156 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-left</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mockup" transform="translate(-105.000000, -855.000000)">
+            <g id="Control-Panel" transform="translate(60.000000, 828.000000)">
+                <g id="btn-left" transform="translate(50.000000, 32.000000)">
+                    <circle id="Oval" stroke="#4D4D4D" stroke-width="5" fill="#000000" cx="73" cy="80" r="75.5"></circle>
+                    <path d="M-1.01004386,72.4999764 L148.012408,72.5224759 C152.148315,72.5231004 155.500624,75.8764217 155.5,80.0123547 C155.499333,84.1483281 152.14599,87.500648 148.010044,87.5000236 L-1.01240843,87.4775241 C-5.1483155,87.4768996 -8.50062442,84.1235783 -8.49999997,79.9876453 C-8.49933272,75.8516719 -5.14598967,72.499352 -1.01004386,72.4999764 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="5" fill="#454545" transform="translate(73.500000, 80.000000) rotate(90.000000) translate(-73.500000, -80.000000) "></path>
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#454545" cx="73" cy="80" r="38"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
