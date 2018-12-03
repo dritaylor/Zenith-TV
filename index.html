@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Zenith</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/tv_icon.ico" />
+	<link rel = "stylesheet" type = "text/css" href = "css/css_index.css" />
+	<script src="js/js_index.js"></script>
+
+  </head>
+  <body id="body" onload="start()">
+  
+  <script>
+document.getElementById("body").onmousedown = function() {mouseDown()};
+document.getElementById("body").onmouseup = function() {mouseUp()};
+
+function mouseDown() {
+	unloadVideo ();
+	iStatic();
+   // document.getElementById("footer_display").innerHTML = "The mouse button is held down.";
+}
+
+function mouseUp() {
+	document.getElementById("footer_display").innerHTML = "";
+	zLogo();
+	clearStatic();
+  //  
+}
+</script>
+  
+	  <div id="main_container">
+		<div id="tv_container"> <video id="video" onended="endVideo()"> </video>
+		</div>
+			<div id= "tv_footer">
+				<div id="knob1">
+					<div id="rotateable" onmouseup="test3()" ><img src="img/btn.png" height="400px" width="400px"> 
+						<div id="rotate"></div>
+					</div>
+							<div id="footer_display"><!--<img src="img/zenith-logo.png">--></div>
+				</div>
+				<div id="knob2">
+					<div id="rotateable2"><img src="img/btn.png" height="400px" width="400px">
+						<div id="rotate2"></div>
+					</div>
+    
+				</div>
+<script src="js/jQuery.js"></script>
+<script src="js/jQueryUI.js"></script>
+<script src="js/js_index.js"></script>
+<button onclick="test()">btn</Button>
+<button onclick="clearStatic()">btn</Button>
+			</div>
+	  </div>
+ 
+
+  </body>
+</html>
